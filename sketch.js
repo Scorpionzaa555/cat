@@ -61,7 +61,7 @@ function setup() {
   video.size(640, 480);
   video.hide();
   // Models available are 'cocossd', 'yolo'
-  detector = ml5.objectDetector(modelURL + 'cocossd', modelReady);
+  detector = ml5.objectDetector(modelURL, modelReady);
 }
 
 function gotDetections(error, results) {
