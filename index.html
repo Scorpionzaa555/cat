@@ -190,7 +190,7 @@
       "#door-icon"
     ).innerHTML = `<i class="fas fa-door-open"></i>`;
     document.querySelector("#text-status").innerHTML =
-      "✅✅ ท่านสามารถเข้าบ้านได้ ✅✅";
+      "✅✅ It's time for a meal ✅✅";
       rect(object.x/2, object.y, object.width/2, object.height);
     } else {
       stroke(0, 0, 255);
@@ -199,7 +199,7 @@
       document.querySelector("#door-status").classList.add("bg-red-500");
       document.querySelector("#door-status").innerHTML = "Can't Access";
       document.querySelector("#text-status").innerHTML =
-        "❌❌ ไม่อนุญาตให้เข้าบ้าน ❌❌";
+        "❌❌ Who are you!! ❌❌";
       document.querySelector(
         "#door-icon"
       ).innerHTML = `<i class="fas fa-door-closed"></i>`;
